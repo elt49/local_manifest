@@ -9,12 +9,14 @@
         <remote name="raghavpocogithub" fetch="https://github.com/poco-x3p" />
         <remote name="lineageextended" fetch="https://github.com/LineageExtended" revision="lineage-19.1" />
         <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
-        <!-- Trees -->
-        <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="lineage-19.1" remote="eltgithub" />
-        <project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="12.1" remote="raghavgithub" />
-        <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="lineage-19.1" remote="eltgithub" />
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-19.1" remote="losgithub" />
         
+        <!-- Trees -->
+        <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="lineage-20.0" remote="eltgithub" />
+        <project path="kernel/xiaomi/sm8150" name="kernel_sm8150" revision="arrow-13.1" remote="raghavgithub" />
+        <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="lineage-20.0" remote="eltgithub" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="lineage-20.0" remote="losgithub" />
+        
+        <!--
         <remove-project name="LineageOS/android_frameworks_base" />
         <remove-project name="LineageOS/android_packages_apps_Settings" />
         <remove-project name="LineageOS/android_vendor_lineage" />
@@ -57,7 +59,6 @@
         <project path="external/themelib" name="android_external_themelib" remote="lineageextended" />
         <project path="vendor/support" name="android_vendor_support" remote="lineageextended" />        
         <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="lineageextended" />
-        <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineageextended" />
-      <!--  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" />
+        <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="lineageextended" /> 
 -->
 </manifest>
