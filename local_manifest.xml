@@ -3,7 +3,7 @@
 
         <!-- remotes -->
         <remote name="losgithub" fetch="https://github.com/lineageos" />
-        <remote name="eltgithub" fetch="https://github.com/elt49" />
+        <remote name="eltgithub" fetch="https://github.com/shghanish" />
         <remote name="mochigithub" fetch="https://github.com/Jebaitedneko" />
         <remote name="raghavgithub" fetch="https://github.com/raghavt20" />
         <remote name="raghavpocogithub" fetch="https://github.com/poco-x3p" />
