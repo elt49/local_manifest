@@ -14,7 +14,7 @@
         <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="lineage-20.0" remote="eltgithub" />
         <project path="kernel/xiaomi/vayu" name="kernel_sm8150" revision="arrow-13.0" remote="raghavgithub" />
         <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="lineage-20.0" remote="eltgithub" />
-        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="arrow-13.0" remote="ArrowOS-Devices" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="staging/arrow-13.0" remote="ArrowOS-Devices" />
         
         <!--
         <remove-project name="LineageOS/android_frameworks_base" />
