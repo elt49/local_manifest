@@ -7,12 +7,13 @@
         <remote name="mochigithub" fetch="https://github.com/Jebaitedneko" />
         <remote name="raghavgithub" fetch="https://github.com/raghavt20" />
         <remote name="raghavpocogithub" fetch="https://github.com/poco-x3p" />
+        <remote name="aospa-vayu" fetch="https://github.com/aospa-vayu" />
         <remote name="lineageextended" fetch="https://github.com/LineageExtended" revision="lineage-20.0" />
         <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices" />
         
         <!-- Trees -->
         <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="lineage-20.0" remote="eltgithub" />
-        <project path="kernel/xiaomi/vayu" name="kernel_sm8150" revision="arrow-13.0" remote="raghavgithub" />
+        <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="zeta" remote="aospa-vayu" />
         <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="lineage-20.0" remote="eltgithub" />
         <project path="hardware/xiaomi" name="android_hardware_xiaomi" revision="staging/arrow-13.0" remote="ArrowOS-Devices" />
         
